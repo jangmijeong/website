@@ -315,6 +315,9 @@
             line-height: 24px;
             color: #494647;}
 @media screen and (max-width:375px) {
+    #topNav {
+        background-color: #de7797;
+    }
     #topNav > ul {
         width: 160px;
     }
