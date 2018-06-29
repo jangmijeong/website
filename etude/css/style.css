@@ -352,11 +352,11 @@
         margin-top: 0;
     }
     #m_Nav > ul {
-        width: 360px;
+        width: 100%;
         margin: 0 auto;
     }
     #m_Nav > ul > li {
-        width: 70px;
+        width: 17%;
     }
     #m_Nav > ul > li > a {
         width: 62px;
@@ -421,8 +421,9 @@
         margin-bottom: 5px;
     }
     #contents .item li a {
-        width: 120px;
-        height: 50px;
+        width: 100%;
+        height: 100%;
+        margin-right: 10px;
     }
     #contents .item .item_image .img {
         width: 70px;
@@ -442,36 +443,39 @@
         height: 120px;
     }
     #contents .review {
-        width: 375px;
+        width: 100%;
         height: 230px;
         margin-top: 30px;
     }
     #contents .review .Total {
-        width: 375px;
+        width: 100%;
+        margin-left: 3%;
     }
     #contents .review .title{
-        width: 100px;
+        width: 40%;
         font-size: 14px;
     }
     #contents .review .Total li {
-        margin-right: 5px;
+        width: 18%;
+        height:20%;
+        margin-right: 4px;
     }
     #contents .review .Total li img {
-        width: 70px;
-        height: 70px;
+        width: 100%;
+        height: 100%;
         margin-bottom: 0;
     }
     #contents .service {
-        width: 375px;
+        width: 100%;
         height: 160px;
     }
     #contents .service h2{
         font-size: 15px;
     }
     #contents .service .customer {
-        width: 170px;
+        width: 47%;
         margin-right: 5px;
-        margin-left: 10px;
+        margin-left: 2%;
     }
     #contents .service .customer h4 {
         font-size: 12px;
@@ -483,7 +487,7 @@
         display: none;
     }
     #contents .service .notice {
-        width: 180px;
+        width: 47%;
         margin-right: 0px;
         float: left;
     }
