@@ -296,7 +296,7 @@
         }
 
         /*반응형*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     #section0 .mNav {
         width: 140px;
         height: 40px;
