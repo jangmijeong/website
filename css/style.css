@@ -189,14 +189,14 @@
             margin-top: 15px;
         }
         #section2 .Box {
-            left: 23%;
+            left: 22%;
         }
         #section2 .bar_total {
             width: 400px;
             height: 250px;
             position:absolute;
             top: 36%;
-            right: 30%;
+            right: 32%;
         }
         #section2 .B_title {
             display: inline-block;
@@ -252,21 +252,21 @@
             font-weight: bold;
         }
         #section3 .des1 {
-            width: 50%;
+            width: 45%;
             height:500px;
             position:absolute;
-            top: 30%;
-            left: 6%;
+            top: 28%;
+            left: 5%;
         }
         #section3 .des2 {
-            width: 50%;
+            width: 45%;
             height:500px;
             position:absolute;
-            top: 30%;
-            left: 50%;
+            top: 28%;
+            left: 52%;
         }
         #section4 .Box {
-            width: 65%;
+            width: 67%;
             height: 55px;
             position:absolute;
             top: 30%;
@@ -283,7 +283,7 @@
         }
         #section4 .des {
             position: absolute;
-            width: 550px;
+            width: 492px;
             height: 300px;
             top: 45%;
             left: 33%;
