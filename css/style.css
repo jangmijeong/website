@@ -188,12 +188,15 @@
             margin-right: 25px;
             margin-top: 15px;
         }
+        #section2 .Box {
+            left: 23%;
+        }
         #section2 .bar_total {
             width: 400px;
             height: 250px;
             position:absolute;
             top: 36%;
-            right: 20%;
+            right: 30%;
         }
         #section2 .B_title {
             display: inline-block;
@@ -253,7 +256,7 @@
             height:500px;
             position:absolute;
             top: 30%;
-            left: 10%;
+            left: 8%;
         }
         #section3 .des2 {
             width: 50%;
