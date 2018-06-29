@@ -348,14 +348,14 @@
         height: 80px;
         border: 12px solid #e75760;
         left: 8%;
-        top: 8%;
+        top: 5%;
         letter-spacing: 3px;
     }
     #section1 .Total {
         width: 300px;
         height: 400px;
         left: 6%;
-        top: 30%;
+        top: 27%;
     }
     #section1 .title span {
         font-size: 13px;
@@ -456,7 +456,7 @@
     #section3 .des2 {
         width: auto;
         height: auto;
-        top: 60%;
+        top: 58%;
         left: 5%;
     }
     #section4 .Box{
@@ -467,7 +467,7 @@
     }
     #section4 .Box p {
         font-size: 29px;
-        width: 80%;
+        width: 83%;
     }
     #section4 .des{
         width: 100%;
