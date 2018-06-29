@@ -22,7 +22,7 @@
             position: relative;
         }
         #section0 .mNav {
-            width: 500px;
+            width: 34%;
             height: 90px;
             margin-left: 100px;
             display: inline-block;
@@ -120,12 +120,12 @@
             vertical-align:middle;
         }
         #section1 .Total {
-            width: 500px;
+            width: 400px;
             height: 600px;
             float: right;
             position:absolute;
             top: 13%;
-            right: 20%;
+            right: 22%;
         }
         #section1 .des {
             font-size: 15px;
@@ -189,11 +189,11 @@
             margin-top: 15px;
         }
         #section2 .bar_total {
-            width: 600px;
-            height: 800px;
+            width: 400px;
+            height: 250px;
             position:absolute;
             top: 36%;
-            right: 18%;
+            right: 20%;
         }
         #section2 .B_title {
             display: inline-block;
