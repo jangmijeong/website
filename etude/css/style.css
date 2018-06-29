@@ -314,7 +314,7 @@
             height: 24px;
             line-height: 24px;
             color: #494647;}
-@media screen and (max-width:375px) {
+@media screen and (max-width:800px) {
     header {
         height: 135px;
     }
@@ -403,15 +403,19 @@
         height: 100px;
     }
     #contents {
-        height: 1100px;
+        height: 1150px;
     }
     #contents .item {
         margin-top: 0;
-        height: 550px;
+        height: 600px;
+        width: 100%;
     }
     #contents .item ul {
         width: 375px;
         margin-top: 20px;
+    }
+    #contents .item .item_title {
+        margin-left: 2%;
     }
     #contents .item .item_title h1 {
         font-size: 15px;
@@ -419,6 +423,7 @@
     #contents .item li{
         font-size:11px;
         margin-bottom: 5px;
+        width: 33%;
     }
     #contents .item li a {
         width: 100%;
@@ -426,8 +431,8 @@
         margin-right: 10px;
     }
     #contents .item .item_image .img {
-        width: 70px;
-        height: 70px;
+        width: 70%;
+        height: 100%;
         margin-bottom: 5px;
     }
     #contents .item li a span {
@@ -454,6 +459,7 @@
     #contents .review .title{
         width: 40%;
         font-size: 14px;
+        text-align: center;
     }
     #contents .review .Total li {
         width: 18%;
@@ -506,7 +512,7 @@
         white-space: nowrap;
     }
     #p {
-        width: 320px;
+        width: 100%;
         font-size: 11px;
         line-height: 16px;
         text-align: center;
@@ -516,7 +522,7 @@
         display: none;
     }
     #footericon {
-        width: 390px;
+        width: 100%;
         top: 67%;
         left: 0;
         margin-left: 0px;
