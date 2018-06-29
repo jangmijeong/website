@@ -21,20 +21,6 @@
             height: auto;
             position: relative;
         }
-        #section0 .mNav {
-            width: 34%;
-            height: 90px;
-            margin-left: 100px;
-            display: inline-block;
-        }
-        #section0 .mNav li a {
-            width: 150px;
-            height: 90px;
-            line-height: 90px;
-            color: gray;
-            font-size: 20px;
-            float: left;
-        }
         #section0 img {
             position: absolute;
             top: 33%;
@@ -297,17 +283,6 @@
 
         /*반응형*/
 @media screen and (max-width:800px) {
-    #section0 .mNav {
-        width: 140px;
-        height: 40px;
-        margin-left: 15px;
-    }
-    #section0 .mNav li a {
-        width: 45px;
-        height: 40px;
-        line-height: 40px;
-        font-size: 12px;
-    }
     #section0 img {
         width: 120px;
         top: 35%;
