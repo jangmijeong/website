@@ -49,17 +49,18 @@
             height: 95px;
             display: inline-block;
             float: left;
-            margin-left: 450px;
+            margin-left: 20%;
         }
         .logo img {
             width: 100%;
         }
         #m_Nav {
-            width: 550px;
+            width: 30%;
             height: 40px;
             float: right;
-            margin-right: 300px;
             margin-top: 25px;
+            margin-right: 15%;
+            display: inline-block;
         }
         #m_Nav > ul{
             width: 550px;
