@@ -88,16 +88,28 @@
             top: 60%;
             left: 40%;
         }
-        #section1 .Box, #section2 .Box {
+        #section1 .left {
+            width: 50%;
+            height: 100%;
+            position:relative;
+            float:left;
+        }
+        #section1 .right {
+            width: 50%;
+            height: 100%;
+            position:relative;
+            float: right;
+        }
+        #section1 .Box{
             display:table; 
             width:200px; 
             height:200px;
             border: 22px solid #e75760;
             font-size: 45px;
             font-weight: bold;
+            margin-left: 45%;
+            top: 30%;
             position: absolute;
-            top: 35%;
-            left: 25%;
             letter-spacing: 5px;
         }
         #section1 .Box p, #section2 .Box p {
@@ -108,10 +120,9 @@
         #section1 .Total {
             width: 400px;
             height: 600px;
-            float: right;
+            top: 11%;
+            margin-right: 23%;
             position:absolute;
-            top: 13%;
-            right: 23%;
         }
         #section1 .des {
             font-size: 15px;
@@ -174,15 +185,36 @@
             margin-right: 25px;
             margin-top: 15px;
         }
+        #section2 .left {
+            width: 50%;
+            height: 100%;
+            position:relative;
+            float:left;
+        }
+        #section2 .right {
+            width: 50%;
+            height: 100%;
+            position:relative;
+            float: right;
+        }
         #section2 .Box {
-            left: 22%;
+            display:table; 
+            width:200px; 
+            height:200px;
+            border: 22px solid #e75760;
+            font-size: 45px;
+            font-weight: bold;
+            position: absolute;
+            top: 35%;
+            margin-left: 45%;
+            letter-spacing: 5px;
         }
         #section2 .bar_total {
             width: 400px;
             height: 250px;
             position:absolute;
             top: 36%;
-            right: 32%;
+            margin-right: 32%;
         }
         #section2 .B_title {
             display: inline-block;
@@ -280,6 +312,16 @@
             text-align: center;
             line-height: 50px;
         }
+#section1 .left {
+    width: 50%;
+    position:relative;
+    float:left;
+}
+#section1 .right {
+    width: 50%;
+    position:relative;
+    float: right;
+}
 
         /*반응형*/
 @media screen and (max-width:800px) {
@@ -320,20 +362,25 @@
         top: 56%;
         left: 45%;
     }
+    #section1 .left {
+        width: 10%;
+    }
+    #section1 .right {
+        width: 90%;
+    }
     #section1 .Box {
         font-size: 16px;
         width: 80px;
         height: 80px;
         border: 12px solid #e75760;
-        left: 8%;
-        top: 3%;
+        left: 70%;
+        top: 10%;
         letter-spacing: 3px;
     }
     #section1 .Total {
         width: 300px;
         height: 400px;
-        left: 6%;
-        top: 25%;
+        top: 28%;
     }
     #section1 .title span {
         font-size: 13px;
@@ -373,19 +420,24 @@
         width: 50px;
         height: 50px;
     }
+    #section2 .left {
+        width: 10%;
+    }
+    #section2 .right {
+        width: 90%;
+    }
     #section2 .Box {
         font-size: 16px;
         width: 80px;
         height: 80px;
         border: 12px solid #e75760;
-        left: 5%;
-        top: 14%;
+        left: 70%;
+        top: 10%;
         letter-spacing: 3px;
     }
     #section2 .bar_total {
         width: 300px;
         height: 300px;
-        left: 5%;
     }
     #section2 .B_title {
         width: 70px;
