@@ -1176,7 +1176,7 @@
         /*데스크탑*/
         @media all and (min-width:1025px){
             .section1_left .cnt {
-                top: 9%;
+                top: 3%;
             }
             #section5 .pp-tabelCell {
                 width: 47%;
