@@ -929,7 +929,7 @@
             width: 1320px;
             height: 490px;
             margin: 0 auto;
-            padding: 7% 6% 0;
+            padding: 5% 4% 0;
         }
         #section4 .tabBox .eventPage li {
             width: 300px;
@@ -945,7 +945,7 @@
             box-sizing: border-box;
         }
         #section4 .tabBox .eventPage li:nth-child(5){
-            margin-left: 13px;
+            margin-left: 0px;
         }
         #section4 .tabBox .eventPage li:nth-child(4),#section3 .tabBox .eventPage li:nth-child(8){
             margin-right: 0px;
@@ -1022,7 +1022,7 @@
             width: 1320px;
             height: 490px;
             margin: 0 auto;
-            padding: 7% 6% 0;
+            padding: 5% 4% 0;
         }
         #section5 .tabBox .eventPage li {
             width: 300px;
@@ -1038,7 +1038,7 @@
             box-sizing: border-box;
         }
         #section5 .tabBox .eventPage li:nth-child(5){
-            margin-left: 13px;
+            margin-left: 0px;
         }
         #section5 .tabBox .eventPage li:nth-child(4),#section3 .tabBox .eventPage li:nth-child(8){
             margin-right: 0px;
